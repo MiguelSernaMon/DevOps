@@ -20,7 +20,7 @@ stages:
           displayName: 'Mostrar yo no se que de la maquina'
         - task: Maven@4
           inputs:
-            mavenPomFile: 'pom.xml'
+            mavenPomFile: 'my-app/pom.xml'
             goals: 'test'
             publishJUnitResults: true
             testResultsFiles: '**/surefire-reports/TEST-*.xml'
