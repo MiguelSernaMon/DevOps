@@ -16,5 +16,5 @@ stages:
         - script: pwd
           displayName: 'mostrar direccion'
           
-        - script: 1s
+        - script: ls
           displayName: 'Mostrar yo no se que de la maquina'
